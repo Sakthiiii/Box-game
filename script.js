@@ -74,7 +74,7 @@ class Counter {
         w.setAttribute('idx', data.id);
   
         
-        // w.setAttribute('idx', idx);
+        //// w.setAttribute('idx', idx);
         let direction = data.dir === 'v' ? 'column' : 'row';
         w.style.flexDirection = direction;
         const s = this.draw(data.children[1], 1);

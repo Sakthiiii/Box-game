@@ -12,5 +12,5 @@ div:not(#app) {
     display: flex;
   }
   body{
-    background-color:#FF75A4;
+    background-color:lightgray;
   }
